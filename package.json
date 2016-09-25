@@ -1,0 +1,15 @@
+{
+  "name": "check-script-global-leak",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "author": "Shawn Xu",
+  "license": "ISC",
+  "scripts": {
+    "postinstall": "npm run server",
+    "server": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
